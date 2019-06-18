@@ -15,7 +15,7 @@ data = [i[0].split(',') for i in data]
 data = [i for i in data if i != ['']]
 data = [list(map(float, i)) for i in data]
 
-delta_y = input('delta_y: ') #typ in shift of energy in the cmd or terminal
+delta_y = input('Shift of the energy (/Hartree): ') #typ in shift of energy in the cmd or terminal
 def takeSecond(elem):
     return elem[1]
 
