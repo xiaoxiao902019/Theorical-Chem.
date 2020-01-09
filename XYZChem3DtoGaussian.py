@@ -6,8 +6,8 @@ Created on Fri Dec 13 14:18:34 2019
 """
 import os
 
-open_path = 'P:\\Downloads\\Calculation\\structure\\Chem3Dstructure'
-save_path ='P:\\Downloads\\Calculation\\structure'
+open_path = 'P:\\Downloads\\Calculation\\structure\\Chem3Dstructure' #variable
+save_path ='P:\\Downloads\\Calculation\\structure' #variable
 
 print('Working path:' + open_path)
 for i in os.listdir(open_path):
@@ -18,7 +18,7 @@ print('==========================================================')
 print('All availiable files')
 
 
-filename = input('Filename: ') #typ in the file name in the cmd or terminal
+filename = input('Filename: ') 
 
 if filename != '':
     completeName = os.path.join(save_path, filename)
